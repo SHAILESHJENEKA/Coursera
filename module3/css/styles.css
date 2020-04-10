@@ -1,0 +1,108 @@
+body{
+  font-size: 16px;  
+  font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid #000;
+}
+
+.navbar-brand{
+  margin-top: 10px;
+  padding-top:10px;
+}
+
+.navbar-brand h1{
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 15px;
+}
+
+#header-nav{
+  background-color:#999999;  
+  border:2px solid #000; 
+  border-radius: 0;
+}
+
+
+.navbar-nav{
+  margin:0 -15px;
+}
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;  
+}
+
+#nav-list{
+  border:1px solid black;
+}
+
+#nav-list li{
+  background:#fff;
+  border-bottom:2px solid black;
+}
+
+#nav-list li a{
+  color: black;
+  font-weight: 600;
+  line-height: 8px;
+}
+
+.menu{
+  margin:20px; 
+}
+
+.main-title{
+  font-weight: bolder;
+  margin-top: -3px;
+}
+
+.menu-content{ 
+  margin-top:50px;
+}
+
+.menu-title{
+  font-weight: bolder;
+}
+
+.menu-item{
+  margin-bottom: 20px;
+  background:#999999;  
+  padding: 10px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.menu-item p{
+  font-weight:600;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+@media (max-width:767px){
+
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  } 
+
+  .menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 20px;
+  }
+
+  .menu-item p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+}
